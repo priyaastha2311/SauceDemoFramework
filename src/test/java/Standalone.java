@@ -65,10 +65,10 @@ public class Standalone {
 		
 		driver.findElement(By.id("datepicker")).click();
 		int x =0;
-		do {
+		/*do {
 		driver.findElement(By.xpath("//span[@class='ui-icon ui-icon-circle-triangle-w']")).click();
 		x++;
-		}while ( x<=5);
+		}while ( x<=5); */
 		
 		while( x<=5)
 		{
