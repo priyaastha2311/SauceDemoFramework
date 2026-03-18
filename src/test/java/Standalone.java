@@ -39,6 +39,7 @@ public class Standalone {
 		WebElement thirdOption = it.next();
 		thirdOption.click();    // can use services.get(2).click(); instead of iterator
 		
+		
 		driver.navigate().back();
 		driver.findElement(By.id("name")).sendKeys("Priya");
 		driver.findElement(By.cssSelector("input[id='email']")).sendKeys("abc.gmail.com");
